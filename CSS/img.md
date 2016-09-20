@@ -21,3 +21,16 @@ if you use css file to contain bunch of background-img? --> may slower than `<im
 ---
 
 use `object-fit` in `<img>` can replace `background-size: cover` & `background-position: center center`
+https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+
+```html
+<h2>object-fit: cover</h2>
+<img src="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" alt="MDN Logo" class="cover"/>
+```
+
+```css
+.cover {
+      object-fit: cover;
+}
+```
+
