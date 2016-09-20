@@ -13,7 +13,11 @@ for example:
 `<img>` is better for SEO
 
 // not sure this one
-`bacground-img` only load when DOM ready, may not blocking page load (if use inline style)
+`background-img` only load when DOM ready, may not blocking page load (if use inline style)
 
 if you use css file to contain bunch of background-img? --> may slower than `<img>`
 
+
+---
+
+use `object-fit` in `<img>` can replace `background-size: cover` & `background-position: center center`
