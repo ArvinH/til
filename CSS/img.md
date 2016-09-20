@@ -6,3 +6,14 @@ for example:
 ```css
     <img src="image-src.png" srcset="image-src.png 1x, image-2x.png 2x" />
 ```
+
+---
+`<img>` vs `background-img` performance & use timing:
+
+`<img>` is better for SEO
+
+// not sure this one
+`bacground-img` only load when DOM ready, may not blocking page load (if use inline style)
+
+if you use css file to contain bunch of background-img? --> may slower than `<img>`
+
