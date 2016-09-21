@@ -11,3 +11,13 @@ Service worker 比較偏重於web app 和瀏覽器以及網路之間的proxy ser
 
 Google tutorial: 
 https://developers.google.com/web/fundamentals/primers/service-worker
+
+what does the self keyword mean in workers ?
+
+http://stackoverflow.com/questions/30735645/what-does-the-self-keyword-mean-in-webworkers
+
+The self read-only property of the WorkerGlobalScope interface returns a reference to the WorkerGlobalScope itself.
+
+Most of the time it is a specific scope like DedicatedWorkerGlobalScope, SharedWorkerGlobalScope, or ServiceWorkerGlobalScope.
+
+Quoted from: https://developer.mozilla.org/en-US/docs/Web/API/WorkerGlobalScope/self
