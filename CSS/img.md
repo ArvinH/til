@@ -34,3 +34,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
 }
 ```
 
+---
+
+use `srcset` for different resolution img
+
+https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+
+example:
+
+`<img src='xx' srcset='xxx.png 1000w aaa.png 2000w' />
