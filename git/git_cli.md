@@ -17,3 +17,7 @@ if [ -d .git ]; then
 	git config alias.st status
 fi;
 ```
+
+git cherry-pick 
+
+用來挑選 commit 來 merge
