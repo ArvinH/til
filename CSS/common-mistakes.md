@@ -12,5 +12,9 @@
 7. 盡量避免利用 element (a, li, ul 等) 當做 css selector
 8. CSS 可以拆成模組，並非利用覆寫的方式做到修改樣式
 
+
+![css-specificity](https://cdn-images-1.medium.com/max/800/1*qHjU8PJj26OpRen07-S47w.png "css-specificity")
+https://css-tricks.com/specifics-on-css-specificity/
+
 原文：
 https://blog.mariano.io/common-css-mistakes-and-how-to-fix-them-8ee0f5e88d64#.reqsd5i95
