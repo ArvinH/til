@@ -33,3 +33,5 @@ letters.enter().append('text')
 .attr('x', function(d,i) { return i*15; })
 .attr('y', 15);
 ```
+
+Reference: https://bost.ocks.org/mike/join/
