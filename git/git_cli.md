@@ -21,3 +21,9 @@ fi;
 git cherry-pick 
 
 用來挑選 commit 來 merge
+
+刪除 branch
+
+git branch -d <branch_name>
+
+git push origin :<branch_name>
