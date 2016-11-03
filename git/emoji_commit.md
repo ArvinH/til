@@ -1,0 +1,16 @@
+## emoji commit is hard but also good!!
+
+- :art: when improving the format/structure of the code
+- :rocket: when improving performance
+- :pencil2: when writing docs
+- :bulb: new idea
+- :construction: work in progress
+- :heavy_plus_sign: when adding feature
+- :heavy_minus_sign: when removing feature
+- :speaker: when adding logging
+- :mute: when reducing logging
+- :bug: when fixing a bug
+- :white_check_mark: when adding tests
+- :lock: when dealing with security
+- :arrow_up: when upgrading dependencies
+- :arrow_down: when downgrading dependencies
