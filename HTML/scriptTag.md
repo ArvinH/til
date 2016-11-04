@@ -1,3 +1,4 @@
+## defer, async in script tag
 `<script src="demo.js" ></script>`
 整個網頁的繪製會停下，等 demo.js 下載完並執行完，網頁繪製才繼續。
 
