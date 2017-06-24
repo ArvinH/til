@@ -8,4 +8,4 @@
 
 Solution: JSbin-example
 
-<a class="jsbin-embed" href="http://jsbin.com/belobub/3/embed?html,js,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+http://jsbin.com/belobub/3/edit?html,js,output
