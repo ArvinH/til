@@ -7,4 +7,5 @@
 此外，要完成組字或是選字，通常是需要按下 enter，這次按下的 enter 會觸發 `compositionend` 也會有 `onKeyDown` 與 `onChange`，而在不同 Browser 的版本上，compositionend 與 onKeyDown、onChange 的發生時機會有點差異，像是 Safari on Mac OS，就會在 compositionend 後多送一次 KeyDown event，而那次的 keyDown event 雖然也會是 e.key === 'Enter'，但是 e.code, e.which 會是 229，229 就是在 compsition 階段（start ~ end）的每個 keyDown event 的 key code。
 
 Solution: JSbin-example
+
 <a class="jsbin-embed" href="http://jsbin.com/belobub/3/embed?html,js,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.0.4"></script>
