@@ -1,3 +1,6 @@
+# git useful link
+https://sethrobertson.github.io/GitFixUm/fixup.html
+
 git subtree 用法
 http://aoxuis.me/post/2013-08-06-git-subtree
 
