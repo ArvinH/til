@@ -68,7 +68,7 @@ function throttle(fn, threshold) {
     if (last && now < last + threshold) {
       clearTimeout(timer)
 
-			// this make sure we always execute fn after threshold time
+			// this make sure we always execute fn after threshold time (after the returned function been called)
       timer = setTimeout(function () {
         last = now
         fn.apply(context, args)
