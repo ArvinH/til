@@ -8,3 +8,9 @@ tldr;
 Add `transform: translate3d(0,0,0)`.
 
 btw, we don't need prefix for transform now. ref: https://caniuse.com/#search=transform
+
+## iOS6 html hardware acceleration changes and how to fix them
+
+Solution:
+http://indiegamr.com/ios6-html-hardware-acceleration-changes-and-how-to-fix-them/
+
