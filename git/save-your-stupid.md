@@ -19,3 +19,12 @@ To git@github.com:your-organisation/your-important-repo.git
 
 source: http://pablofabregat.com/git/yes-you-can-revert-a-git-push-force
 
+
+# How to change the commit author for one specific commit?
+
+Interactive rebase off of a point earlier in the history than the commit you need to modify (`git rebase -i <earliercommit>`). In the list of commits being rebased, change the text from pick to edit next to the hash of the one you want to modify. Then when git prompts you to change the commit, use this:
+
+`git commit --amend --author="Author Name <email@address.com>"`
+
+ref: https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit/28845565
+
