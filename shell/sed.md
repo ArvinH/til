@@ -46,13 +46,14 @@ echo "${message//[0-9]/X}"
 in `sed`
 
 ```bash
-sed -i "1i\\service: echo "${CIRCLE_BRANCH//[\.]/-}"" dist/app-dev.yaml
+sed -i "1i\\service: "${CIRCLE_BRANCH//[\.]/-}"" dist/app-dev.yaml
+# no need to use "echo" here
 ```
 
 for using Mac
 
 ```bash
 sed -i "" "1i\\               
-service: echo "${CIRCLE_BRANCH//[\.]/-}"
+service: "${CIRCLE_BRANCH//[\.]/-}"
 " somefile.yaml
 ```
