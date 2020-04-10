@@ -10,9 +10,9 @@ this.props = {
 };
 
 let {
-	foo,
-	bar,
-	yy = []
+  foo,
+  bar,
+  yy = []
 } = this.props;
 // result => foo: 'aaa', bar: 'ccc', yy: []
 ```
