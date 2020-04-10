@@ -5,8 +5,8 @@
 example
 ```js
 this.props = {
-	foo: 'aaa',
-	bar: 'ccc'
+  foo: 'aaa',
+  bar: 'ccc'
 };
 
 let {
