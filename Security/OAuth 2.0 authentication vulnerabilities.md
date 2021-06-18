@@ -18,3 +18,14 @@ https://portswigger.net/web-security/oauth/lab-oauth-forced-oauth-profile-linkin
 If auth server didn't verified redirect_uri, attacker could use `iframe` to let people implicitly complete oauth flow but with attackers' redirect_uri, in this way, attackers can get the other's accessToken, and then use stolen token to login with real redirect_uri and login as others.
 
 https://portswigger.net/web-security/oauth/lab-oauth-account-hijacking-via-redirect-uri
+
+4. Stealing OAuth access tokens via an open redirect
+// To-Do
+
+https://portswigger.net/web-security/oauth/lab-oauth-stealing-oauth-access-tokens-via-an-open-redirect
+
+5. Stealing OAuth access tokens via a proxy page
+
+When redirect_uri is vulnerable, you might be able to use directory traversal to redirect access tokens to arbitrary pages on the website. Similar to Lab 3, you can use an `iframe` to let people implicitly complete oauth flow and you can get the accessToken from the redirected arbitrary pages.
+
+https://portswigger.net/web-security/oauth/lab-oauth-stealing-oauth-access-tokens-via-a-proxy-page
