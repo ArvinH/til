@@ -30,3 +30,14 @@ git cherry-pick
 git branch -d <branch_name>
 
 git push origin :<branch_name>
+
+### Edit first commit through rebase
+
+git rebase --root
+
+### rename commit author
+
+1. git rebase -i xxx
+1. Change the specific commit with `edit`
+1. git commit --amend --author="{Author name you want to show}"
+
